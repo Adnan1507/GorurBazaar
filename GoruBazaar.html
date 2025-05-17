@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- flowbite -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <!-- DaisyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/0c5eb8cc6b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+HU:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+    <title>GoruBazaar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+      <div class="logo">
+        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="image/carousel/logo.jpg" class="h-10" alt="Logo" />
+          <span class="self-center text-2xl font-semibold whitespace-nowrap"
+            >GorurBazaar</span
+          >
+        </a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#deliver">Delivery</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#cart-overlay">Cart</a></li>
+      </ul>
+    </nav>
+    <!-- Hero Section -->
+    <div class="container w" id="home">
+      <div id="slide">
+        <div class="item" style="background-image: url(image/carousel/6.jpg)">
+          <div class="content">
+            <div class="name">Raising Standards in Livestock Trading</div>
+            <div class="des">
+              Join thousands who trust GorurBazaar for honest deals and healthy
+              animals. Your one-stop cattle solution is just a click away.
+            </div>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(image/carousel/1.jpg)">
+          <div class="content">
+            <div class="name">Welcome to GorurBazaar</div>
+            <div class="des">
+              Your trusted destination for healthy, well-bred cattle. Buy
+              livestock online with ease and confidence.
+            </div>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(image/carousel/2.jpg)">
+          <div class="content">
+            <div class="name">GorurBazaar – Your Digital Gorur Haat</div>
+            <div class="des">
+              Browse, choose, and buy domestic animals anytime, anywhere. We
+              bring the haat to your screen.
+            </div>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(image/carousel/3.jpg)">
+          <div class="content">
+            <div class="name">Quality Cattle, Fair Prices</div>
+            <div class="des">
+              At GorurBazaar, we ensure every animal is healthy, strong, and
+              farm-raised. Because you deserve the best for your farm or family.
+            </div>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(image/carousel/4.jpg)">
+          <div class="content">
+            <div class="name">Reliable, Safe, and Delivered</div>
+            <div class="des">
+              From dairy cows to domestic bulls, we've got it all. Order from
+              GorurBazaar and relax — we handle the rest.
+            </div>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(image/carousel/5.jpg)">
+          <div class="content">
+            <div class="name">Cattle Buying Made Simple</div>
+            <div class="des">
+              No more crowded haats or long travels. Get top-notch service and
+              cattle from GorurBazaar, right from home.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="buttons">
+        <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+        <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+      </div>
+    </div>
+    <!-- Product Category -->
+    <section class="product-categories" id="products">
+      <h2
+        class="section-title text-4xl font-bold text-black tracking-wide uppercase border-b-4 border-black inline-block pb-2"
+      >
+        Our Livestock
+      </h2>
+      <div class="category-container">
+        <a href="#cow" class="category-item">
+          <div class="image-wrapper">
+            <img src="image/PRODUCT/cow.jpg" alt="Cow" />
+          </div>
+          <p>Cow</p>
+        </a>
+        <a href="#goat" class="category-item">
+          <div class="image-wrapper">
+            <img src="image/PRODUCT/goat.jpg" alt="Goat" />
+          </div>
+          <p>Goat</p>
+        </a>
+        <a href="#buffalo" class="category-item">
+          <div class="image-wrapper">
+            <img src="image/PRODUCT/buffalo.jpg" alt="Buffalo" />
+          </div>
+          <p>Buffalo</p>
+        </a>
+        <a href="#sheep" class="category-item">
+          <div class="image-wrapper">
+            <img src="image/PRODUCT/sheep.jpg" alt="Sheep" />
+          </div>
+          <p>Sheep</p>
+        </a>
+        <a href="#camel" class="category-item">
+          <div class="image-wrapper">
+            <img src="image/PRODUCT/camel.jpg" alt="Camel" />
+          </div>
+          <p>Camel</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Animal Cards -->
+    <main>
+      <div class="text-center my-10">
+        <h2
+          class="text-4xl font-bold text-black tracking-wide uppercase border-b-4 border-white inline-block pb-2"
+        >
+          Latest Collection
+        </h2>
+      </div>
+      <div id="animal-container">
+        <div class="animal-card" data-id="17">
+          <img src="image/Dromedary Camel.jpg" alt="Dromedary Camel" />
+          <h3>Dromedary Camel</h3>
+          <button class="price-button" data-price="600000">৳6,00,000</button>
+        </div>
+      </div>
+    </main>
+    <div id="modal">
+      <div id="modal-content"></div>
+    </div>
+    <!-- Cart Sidebar and Overlay -->
+    <div id="cart-overlay" style="display: none"></div>
+    <aside id="cart-sidebar">
+      <div class="cart-header">
+        <h2>Your Cart</h2>
+      </div>
+      <div class="cart-content">
+        <ul id="cart-items"></ul>
+      </div>
+      <div id="cart-total"></div>
+    </aside>
+    <!-- Delivery Section -->
+    <section class="product-categories delivery-section" id="deliver">
+      <h2
+        class="section-title text-4xl font-bold text-black tracking-wide uppercase border-b-4 border-black inline-block pb-2"
+      >
+        Places we Deliver
+      </h2>
+      <div class="category-container">
+        <a class="category-item">
+          <div class="image-wrapper">
+            <img src="image/PRODUCT/dhaka.jpg" alt="Dhaka" />
+          </div>
+          <p>Dhaka</p>
+        </a>
+        <a class="category-item">
+          <div class="image-wrapper">
+            <img src="image/PRODUCT/chittagong.jpg" alt="Chittagong" />
+          </div>
+          <p>Chittagong</p>
+        </a>
+        <a class="category-item">
+          <div class="image-wrapper">
+            <img src="image/PRODUCT/syhlet.jpg" alt="Sylhet" />
+          </div>
+          <p>Sylhet</p>
+        </a>
+        <a class="category-item">
+          <div class="image-wrapper">
+            <img src="image/PRODUCT/rangpur.jpg" alt="Rangpur" />
+          </div>
+          <p>Rangpur</p>
+        </a>
+        <a class="category-item">
+          <div class="image-wrapper">
+            <img src="image/PRODUCT/barisal.jpg" alt="Barisal" />
+          </div>
+          <p>Barisal</p>
+        </a>
+        <a class="category-item">
+          <div class="image-wrapper">
+            <img src="image/PRODUCT/khulna.jpg" alt="Khulna" />
+          </div>
+          <p>Khulna</p>
+        </a>
+        <a class="category-item">
+          <div class="image-wrapper">
+            <img src="image/PRODUCT/mymensingh.jpg" alt="Mymensingh" />
+          </div>
+          <p>Mymensingh</p>
+        </a>
+        <a class="category-item">
+          <div class="image-wrapper">
+            <img src="image/PRODUCT/rajshahi.jpg" alt="Rajshahi" />
+          </div>
+          <p>Rajshahi</p>
+        </a>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="bg-green-800 text-white py-8">
+      <div class="max-w-screen-sm mx-auto text-center">
+        <!-- Contact Information -->
+        <div class="footer-contact" id="contact">
+          <h3 class="text-2xl font-semibold mb-4">Contact Us</h3>
+          <p class="mb-2">Phone: +123 456 7890</p>
+          <p class="mb-2">Email: support@gorurbazaar.com</p>
+          <p class="mb-2">Address: 123 Green Road, City, Country</p>
+        </div>
+
+        <!-- Copyright Information -->
+        <div class="footer-copyright mt-6">
+          <p>&copy; 2025 GorurBazaar. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
